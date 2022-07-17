@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ---------------------BOOTSTRAP --------------------- -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <!-- ---------------------JAVASCRIPT --------------------- -->
+    <script src="script.js"></script>
+    
+    <!-- --------------------- CSS --------------------- -->
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Liking Likes</title>
+</head>
+<body>
+    <div class="container">
+        <h1 id="network">Network</h1>
+        <h1 id="your-feed" class="text-center">Your Feed</h1>
+        <div id="feed">
+
+
+<!-- ------------COLUMN 1 ------------ -->
+            <div id="column1" class="flex-center-center column border">
+                <img src="./img/SariaDog.jpg" alt="Saria, the Dog">
+                <a id="column-link" href="#">Add an avatar</a>
+                <h4>James Doe</h4>
+            </div>
+
+<!-- ------------COLUMN 2 ------------ -->
+
+            <div id="column2" class="column">
+
+<!-- ------------COMMENT 1 ------------ -->
+
+                <div class="border comment">
+            <!-- ------------SECTION 1 ------------ -->
+
+                    <div class="flex-space-between-center">
+                        <h3>
+                            <strong>Neil M</strong>
+                        </h3>
+                        <div class="flex-space-between-center">
+                            <h4 class="likes">
+                                <strong>
+                                    <span id="comment-1">9 like(s)</span>
+                                </strong>
+                            </h4>
+                            <button onclick="login('comment-1')">
+                                <strong>Like</strong>
+                            </button>
+
+                        </div>
+                    </div>
+
+            <!-- ------------SECTION 2 ------------ -->
+
+                    <h4 id="section2">
+                        I just set up this new discord bot, let me know what you all think. 
+                        <a>link</a>
+                    </h4>
+
+                </div>
+
+<!-- ------------END COMMENT 1 ------------ -->
+
+
+
+<!-- ------------COMMENT 2 ------------ -->
+
+                <div class="border comment">
+                    <!-- ------------SECTION 1 ------------ -->
+
+                    <div class="flex-space-between-center">
+                        <h3>
+                            <strong>Nichole K</strong>
+                        </h3>
+                        <div class="flex-space-between-center">
+                            <h4 class="likes">
+                                <strong>
+                                    <span id="comment-2">12 like(s)</span>
+                                </strong>
+                            </h4>
+                            <button onclick="increase(1)">
+                                <strong>Like</strong>
+                            </button>
+                        </div>
+                    </div>
+
+            <!-- ------------SECTION 2 ------------ -->
+
+                    <h4 id="section2">
+                        Just finished my
+                        <a>next comic,</a>
+                        check it out.
+                    </h4>
+
+                </div>
+
+<!-- ------------END COMMENT 2 ------------ -->
+
+
+<!-- ------------COMMENT 3 ------------ -->
+
+                <div class="border comment">
+                    <!-- ------------SECTION 1 ------------ -->
+
+                    <div class="flex-space-between-center">
+                        <h3>
+                            <strong>Jim R</strong>
+                        </h3>
+                        <div class="flex-space-between-center">
+                            <h4 class="likes">
+                                <strong>
+                                    <span id="comment-3">9 like(s)</span>
+                                </strong>
+                            </h4>
+                            <button onclick="increase(2)">
+                                <strong>Like</strong>
+                            </button>
+                        </div>
+                    </div>
+
+                <!-- ------------SECTION 2 ------------ -->
+
+                    <h4 id="section2">
+                        I just set up this new discord bot, let me know what you all think. 
+                        <a>link</a>
+                    </h4>
+
+                </div>
+
+<!-- ------------END COMMENT 3 ------------ -->
+
+
+
+
+
+
+
+
+
+
+
+                
+            </div>
+
+
+        </div>
+    </div>
+</body>
+</html>
